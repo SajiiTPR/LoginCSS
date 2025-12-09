@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background: #f6f5f7;
+    background-image: url(/bgIMG.jpg);
+    background-position: center;
+    background-attachment: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.background{
+    width: 380px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);    
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 32px;
+    font-weight: bold;
+}
+.background form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    }
+
+.background form .form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.background form .form-container i{
+    position: relative;
+    margin-left: -10px;
+    top: -40px;
+    color: #888;
+}
+.background form .form-container label{
+    font-size: 14px;
+    color: #555;
+}
+.background form .form-container input{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    background: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.forgot> p.psw a{
+    text-decoration: none;
+    color: #535353;
+    font-size: 14px;
+    display: flex;
+    justify-content: right;
+    margin-top: -10px;
+    
+}
+.forgot> p.psw a:hover{
+    text-decoration: underline;
+}
+.background form button{
+    padding: 8px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgb(100, 103, 232), #ed4ee5);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.background form button:hover{
+    background:  linear-gradient(90deg, #da3ed2, rgb(120, 174, 255));
+}
+.background form .social-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.background form .social-container a{
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+.background form .social-container a:nth-child(1){
+    background: #3b5998;    
+}
+.background form .social-container a:nth-child(2){
+    background: #5a87e8;    
+}
+.background form .social-container a:nth-child(3){
+    background: #e90000;    
+}
+.background form .social-container a:hover{
+    color: #000;
+}
+.background form p{
+    text-align: center;
+    color: #555;
+    font-size: 14px;
+}
+.signup{
+    margin-top: 60px;
+}
+.background form .signup a{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #021b03;
+    text-decoration: none;
+    font-weight: bold;
+}
+.background form a:hover{
+    text-decoration: underline;
+}
